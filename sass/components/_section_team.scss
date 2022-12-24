@@ -1,0 +1,43 @@
+.team__section{
+    background-color: #F5F4FA;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.team__title{
+    margin-bottom: 50px;
+    font-size: 36px;
+    line-height: calc( 42 / 36);
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+.team__list{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.team__items{
+    background-color: $color-basic;
+    box-shadow: 0 4px 2px -2px rgb(164, 164, 164);
+}
+.team__items:not(:first-child){
+    margin-left: 30px;
+}
+.wraper{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.wraper__name{
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+.wraper__skills{
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    letter-spacing: 0.03em;
+    color: $color-paragraph;
+    text-align: center;
+}
