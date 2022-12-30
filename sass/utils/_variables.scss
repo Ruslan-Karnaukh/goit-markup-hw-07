@@ -21,38 +21,5 @@ $color-icon: #AFB1B8;
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
-// fonts
-
-body{
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-}
 
 
-// general classes
-.section{
-    padding: 94px 0;
-}
-
-.container{
-    width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
-// 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-a{
-    text-decoration: none;
-    color: $color-brand;
-}
-li{
-    list-style: none;
-}
-img{
-    display: block;
-}
