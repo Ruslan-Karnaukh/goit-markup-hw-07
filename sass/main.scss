@@ -1,18 +1,22 @@
 @import './utils/nomalize';
-@import './base/reset';
 @import './utils/variables';
 @import './utils/container';
-@import './layout/page_header';
+
+@import './base/reset';
+@import './base/comand';
+
 @import './components/logo';
 @import './components/nav';
+@import './components/socials_icons';
+@import './components/subscription';
+@import './components/beack-drop';
+@import './components/portfolio_filtres';
+
+@import './layout/page_header';
 @import './layout/section_hero';
 @import './layout/section_features';
 @import './layout/section_work';
 @import './layout/section_team';
-@import './components/socials_icons';
 @import './layout/section_client';
 @import './layout/footer';
-@import './components/subscription';
-@import './components/beack-drop';
-@import './components/portfolio_filtres';
 @import './layout/portfolio';
